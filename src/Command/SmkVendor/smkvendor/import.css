@@ -1,0 +1,127 @@
+.pull-left{float: left!important;}
+.pull-right{float: right!important;}
+
+.mt15{margin-top: 15px;}
+.p0{padding: 0!important;}
+.plr15{padding: 0 15px;}
+.bg-blue{background-color: #1c75d6;}
+.head{display: flex;justify-content: space-between;align-items: center;}
+.container .tech{cursor:pointer;height: 36px;border: 1px solid white;line-height: 36px;padding: 0 1em;}
+body{min-width: 850px;}
+#select-file{height: 40px;line-height: 40px;}
+#select-file .select-input{border: 1px solid #1c75d6;height: 40px;}
+#select-file .select-input input{height: 100%;width: 100%;border:none;}
+#select-file .select-btn{font-size:1rem;cursor: pointer;border: 1px solid #1c75d6;border-left: none;height: 40px;color: #1c75d6;text-align: center;}
+#select-file .submit-btn{cursor: pointer;border: 1px solid #1c75d6;height: 40px;background-color: #1c75d6;text-align: center;color: white;}
+#field {border: 1px solid #d9d9d9;}
+#field .field-header {border-bottom: 1px solid #d9d9d9; display: flex;justify-content: space-between;height: 66px;color: gray;align-items: center;}
+#field .field-header .field-header-right {display: flex;justify-content: flex-end;align-items: center;}
+#field .field-header .field-header-right .operate{cursor: pointer;padding: 0 1em 0 6px;height: 30px;line-height: 30px;}
+#field .field-header .field-header-right .sort-btn{cursor: pointer;background-color: #ff6526;color: white;padding: 0 1em;height: 30px;line-height: 30px;}
+#field .field-items{display: flex;justify-content: space-between;padding: 0 10%;border-top: 1px solid #d9d9d9;}
+#field .field-items  .field-name{text-align: left;line-height: 36px;width:30%;}
+#field .field-items .field-content{text-align: right;line-height: 36px;width:30%;}
+#field .field-footer{display: flex;justify-content: flex-end;height: 44px;align-items: center;border-top: 1px solid #d9d9d9;}
+#field .field-footer .start-import{cursor: pointer;height: 30px;line-height: 30px;background-color: #1c75d6;text-align: center;color: white;padding: 0 1em;margin-right: 15px;}
+#import-result .result-tips{line-height: 66px;padding-left: 15px;}
+#import-result .result-tips span:nth-child(1){color: gray;}
+#import-result .result-tips  span:nth-child(2){color: #1c75d6}
+#import-result .result-tips a{cursor: pointer;}
+#import-result table{border: 1px solid #d9d9d9;}
+#import-result{}
+
+
+
+.checkbox-custom input[type="checkbox"] {
+    background-color: white;
+    border-radius: 5px;
+    border: 1px solid #d3d3d3;
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    text-align: center;
+    vertical-align: bottom;
+    line-height: 20px;
+}
+.checkbox-custom {
+    position: relative;
+    padding: 0 0 0 25px;
+    margin-bottom: 7px;
+    margin-top: 0;
+}
+.clearfix:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    overflow: hidden;
+}
+.clearfix {
+    zoom: 1;
+}
+.show {
+    position: relative;
+    width: 80%;
+    margin: 10px 10%;
+    cursor: pointer;
+}
+.canvas {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: -1;
+
+}
+.backcanvas {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: -2;
+
+}
+.showleft {
+    float: left;
+    width: 152px;
+}
+.showright {
+    float: right;
+    width: 152px;
+}
+.show .showitem {
+    display: block;
+    border-radius: 15px;
+    padding: 10px;
+}
+.tools {
+}
+.tools div {
+
+    /*color: #060707;*/
+    cursor: pointer;
+    line-height: 20px;
+}
+.tools div:hover {
+
+}
+.tools .goBackBtn {
+
+}
+.tools .resetCanvasBtn {
+
+}
+.showleft .showitem {
+    /*color: #aaa39f;*/
+    font-size: 16px;
+}
+.showright .showitem {
+    /*color: #aaa39f;*/
+    font-size: 16px;
+}
+.showright .showitem p {
+    top: -76px;
+    left: 107px;;
+}
+
+
+
+
